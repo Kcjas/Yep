@@ -1,0 +1,176 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .page {
+    min-height: 100vh;
+    background: #f2faf4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 4rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .hearts-top {
+    font-size: 22px;
+    letter-spacing: 8px;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+    color: #e53935;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  .badge {
+    background: #d4f0da;
+    color: #276a3a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1.5px solid #a8dbb4;
+    padding: 2rem 2rem;
+    max-width: 560px;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #276a3a;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+  .card-subtitle {
+    font-size: 13px;
+    color: #5a9e6e;
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  .section {
+    margin-bottom: 1.4rem;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    background: #f6fdf7;
+    border: 1px solid #c8e6ce;
+  }
+  .section-icon {
+    font-size: 18px;
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  .section-text {
+    font-size: 15px;
+    color: #2a2a2a;
+    line-height: 1.8;
+  }
+  .highlight {
+    color: #276a3a;
+    font-weight: 600;
+  }
+  .divider {
+    width: 40px;
+    height: 2px;
+    background: #a8dbb4;
+    border-radius: 2px;
+    margin: 1.4rem auto;
+  }
+  .closing {
+    text-align: center;
+    font-size: 15px;
+    color: #276a3a;
+    font-weight: 600;
+    line-height: 2;
+  }
+  .floating-hearts {
+    position: relative;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 1.4rem;
+  }
+  .fh {
+    position: absolute;
+    font-size: 16px;
+    animation: rise 4s ease-in infinite;
+    opacity: 0;
+    color: #e53935;
+  }
+  @keyframes rise {
+    0% { transform: translateY(30px); opacity: 0; }
+    20% { opacity: 1; }
+    100% { transform: translateY(-10px); opacity: 0; }
+  }
+  .fh:nth-child(1) { left: 10%; animation-delay: 0s; }
+  .fh:nth-child(2) { left: 30%; animation-delay: 0.8s; }
+  .fh:nth-child(3) { left: 55%; animation-delay: 1.6s; }
+  .fh:nth-child(4) { left: 75%; animation-delay: 2.4s; }
+  .fh:nth-child(5) { left: 88%; animation-delay: 3.2s; }
+  .stamp {
+    text-align: center;
+    font-size: 12px;
+    color: #5a9e6e;
+    margin-top: 1.2rem;
+  }
+</style>
+
+<div class="page">
+  <div class="hearts-top">&#10084; &#10084; &#10084;</div>
+  <div class="badge">1 year and 2 months of chaos and cuteness</div>
+
+  <div class="card">
+    <div class="card-title">Hey Jaanya</div>
+    <div class="card-subtitle">a letter from ur fav person (i hope)</div>
+
+    <div class="section">
+      <span class="section-icon">&#10084;&#65039;</span>
+      <div class="section-text">
+        I love you and ik ur very stressed abt IB exams, but just saying 44+ is confirmed for u. I have a feeling it will be and uk how my feelings tends to be. besides ur one of the smartest and most hardworking person ik and thats one of the reasons why i love you.
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">&#128149;</span>
+      <div class="section-text">
+        and abt the situation with ur mom. Ik u dont wanna talk abt it and it pisses u off but just let it go for now. she is just stressed abt ur exams asw and it will all work out at the end. dont take what she says to heart. ur not what she says and uk it and she does to dw. She loves u very much dw babe.
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="section-icon">&#128218;</span>
+      <div class="section-text">
+        Anyways work hard, dont be stressed and pls sleep early. hella close to our exams now (I forgot how much but yay almost done with IB!!!). I Love you alot. and i hope we end up in the same uni. it will be hella fun then. WE CAN HANGOUT EVERYDAY THEN YAYYY!!!
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="section-icon"></span>
+      <div class="section-text">
+        and ik we wont talk much after this but i better get all my missed attention after the exams or else ill cry!
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="closing">
+      I love you,<br>
+      Bye Bye, Goodluck!!!<br>
+      and rmbr I AM SO PROUD OF EVERYTHING UVE DONE U GOT THISS!!!!
+    </div>
+
+    <div class="floating-hearts">
+      <span class="fh">&#10084;</span>
+      <span class="fh">&#10084;</span>
+      <span class="fh">&#10084;</span>
+      <span class="fh">&#10084;</span>
+      <span class="fh">&#10084;</span>
+    </div>
+
+    <div class="stamp">made with love</div>
+  </div>
+</div>
